@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C-Stitch (Debug)",
+            "type": "cmake",
+            "request": "launch",
+            "program": "${workspaceFolder}/builds/vs2026-64bit-qt6X/bin/RelWithDebInfo/C-Stitch.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "QT_QPA_PLATFORM_PLUGIN_PATH",
+                    "value": "${env:QT_PLUGINS_DIR}/platforms"
+                }
+            ],
+            "preLaunchTask": "cmake: build"
+        },
+        {
+            "name": "C-Job (Debug)",
+            "type": "cmake",
+            "request": "launch",
+            "program": "${workspaceFolder}/builds/vs2026-64bit-qt6X/bin/RelWithDebInfo/C-Job.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "QT_QPA_PLATFORM_PLUGIN_PATH",
+                    "value": "${env:QT_PLUGINS_DIR}/platforms"
+                }
+            ],
+            "preLaunchTask": "cmake: build"
+        },
+        {
+            "name": "C-Stitch (Attach to Running)",
+            "type": "cppvsdbg",
+            "request": "attach",
+            "processId": "${command:pickDebuggableProcess}",
+            "program": "${workspaceFolder}/builds/vs2026-64bit-qt6X/bin/RelWithDebInfo/C-Stitch.exe"
+        }
+    ]
+}

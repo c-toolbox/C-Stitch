@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ SPDX-FileCopyrightText: 2026 Erik Sundén
+ SPDX-License-Identifier: GPL-3.0-or-later
+ -->
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name="C-Stitch/cstitch.conf" />
+  <group name="ApplicationSettings">
+    <entry name="LeftFace" type="String">
+      <label>Startup left cubemap face.</label>
+      <default></default>
+    </entry>
+    <entry name="RightFace" type="String">
+      <label>Startup right cubemap face.</label>
+      <default></default>
+    </entry>
+    <entry name="TopFace" type="String">
+      <label>Startup top cubemap face.</label>
+      <default></default>
+    </entry>
+    <entry name="BottomFace" type="String">
+      <label>Startup bottom cubemap face.</label>
+      <default></default>
+    </entry>
+    <entry name="RightLeftFace" type="String">
+      <label>Startup stereo right-eye left cubemap face.</label>
+      <default></default>
+    </entry>
+    <entry name="RightRightFace" type="String">
+      <label>Startup stereo right-eye right cubemap face.</label>
+      <default></default>
+    </entry>
+    <entry name="RightTopFace" type="String">
+      <label>Startup stereo right-eye top cubemap face.</label>
+      <default></default>
+    </entry>
+    <entry name="RightBottomFace" type="String">
+      <label>Startup stereo right-eye bottom cubemap face.</label>
+      <default></default>
+    </entry>
+    <entry name="OutputDirectory" type="String">
+      <label>Startup output directory.</label>
+      <default></default>
+    </entry>
+    <entry name="MonoSubDir" type="String">
+      <label>Mono output subdirectory.</label>
+      <default>mono</default>
+    </entry>
+    <entry name="LeftSubDir" type="String">
+      <label>Left-eye output subdirectory.</label>
+      <default>left</default>
+    </entry>
+    <entry name="RightSubDir" type="String">
+      <label>Right-eye output subdirectory.</label>
+      <default>right</default>
+    </entry>
+    <entry name="OutputName" type="String">
+      <label>Startup output filename stem.</label>
+      <default>stitched</default>
+    </entry>
+    <entry name="Stereo" type="Bool">
+      <label>Enable stereo stitching by default.</label>
+      <default>false</default>
+    </entry>
+    <entry name="StereoEye" type="String">
+      <label>Default stereo eye selection: both, left, or right.</label>
+      <default>both</default>
+    </entry>
+    <entry name="Alpha" type="Bool">
+      <label>Preserve alpha output by default.</label>
+      <default>true</default>
+    </entry>
+    <entry name="Fxaa" type="Bool">
+      <label>Enable FXAA by default.</label>
+      <default>false</default>
+    </entry>
+    <entry name="Cubic" type="Bool">
+      <label>Use cubic filtering by default.</label>
+      <default>false</default>
+    </entry>
+    <entry name="AutoDetectCubemapFaces" type="Bool">
+      <label>Detect sibling cubemap face folders automatically.</label>
+      <default>true</default>
+    </entry>
+    <entry name="FisheyeFov" type="Double">
+      <label>Default fisheye field of view in degrees.</label>
+      <default>180.0</default>
+    </entry>
+    <entry name="EyeSeparation" type="Double">
+      <label>Default stereo eye separation in meters.</label>
+      <default>0.065</default>
+    </entry>
+    <entry name="DomeDiameter" type="Double">
+      <label>Default dome diameter in meters.</label>
+      <default>14.8</default>
+    </entry>
+    <entry name="Resolution" type="Int">
+      <label>Default fisheye output resolution.</label>
+      <default>4096</default>
+    </entry>
+    <entry name="CubemapResolution" type="Int">
+      <label>Default cubemap texture resolution.</label>
+      <default>2048</default>
+    </entry>
+    <entry name="Msaa" type="Int">
+      <label>Default multisample anti-aliasing level.</label>
+      <default>4</default>
+    </entry>
+    <entry name="Format" type="String">
+      <label>Default output image format.</label>
+      <default>png</default>
+    </entry>
+    <entry name="Compression" type="Int">
+      <label>Default PNG compression level.</label>
+      <default>6</default>
+    </entry>
+    <entry name="Quality" type="Int">
+      <label>Default JPEG quality.</label>
+      <default>95</default>
+    </entry>
+    <entry name="LoadingThreads" type="Int">
+      <label>Default face loading threads per eye.</label>
+      <default>8</default>
+    </entry>
+    <entry name="EncodingThreads" type="Int">
+      <label>Default output encoding threads per eye.</label>
+      <default>8</default>
+    </entry>
+    <entry name="StartIndex" type="Int">
+      <label>Default input sequence start index.</label>
+      <default>0</default>
+    </entry>
+    <entry name="StopIndex" type="Int">
+      <label>Default input sequence stop index.</label>
+      <default>0</default>
+    </entry>
+    <entry name="OutputStartIndex" type="Int">
+      <label>Default output sequence start index.</label>
+      <default>0</default>
+    </entry>
+    <entry name="Steps" type="Int">
+      <label>Default input sequence step size.</label>
+      <default>1</default>
+    </entry>
+    <entry name="CustomFrameList" type="String">
+      <label>Default comma-separated custom input frame list.</label>
+      <default></default>
+    </entry>
+    <entry name="LoadTextureAttemptsMax" type="Int">
+      <label>Default maximum texture loading attempts.</label>
+      <default>5</default>
+    </entry>
+    <entry name="LoadTextureAttemptsSleep" type="Int">
+      <label>Default delay between texture loading attempts in seconds.</label>
+      <default>1</default>
+    </entry>
+    <entry name="LeftRotation" type="Int">
+      <label>Default left face rotation.</label>
+      <default>0</default>
+    </entry>
+    <entry name="RightRotation" type="Int">
+      <label>Default right face rotation.</label>
+      <default>0</default>
+    </entry>
+    <entry name="TopRotation" type="Int">
+      <label>Default top face rotation.</label>
+      <default>0</default>
+    </entry>
+    <entry name="BottomRotation" type="Int">
+      <label>Default bottom face rotation.</label>
+      <default>0</default>
+    </entry>
+  </group>
+</kcfg>

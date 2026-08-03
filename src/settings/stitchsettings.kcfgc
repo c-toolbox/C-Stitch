@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Erik Sundén
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+File=stitchsettings.kcfg
+ClassName=StitchSettings
+Mutators=true
+DefaultValueGetters=true
+GenerateProperties=true
+ParentInConstructor=true
+Singleton=true
