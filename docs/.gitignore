@@ -2,7 +2,9 @@
 node_modules/
 
 # Production
-build/
+# Anchored to docs/ so it only ignores Docusaurus's output directory,
+# NOT the "Build" docs section in docs/docs/build/.
+/build
 
 # Generated files
 .docusaurus/
