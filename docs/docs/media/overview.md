@@ -1,6 +1,7 @@
 ---
-title: Media
-nav_order: 4
+title: 'Media and data structure'
+sidebar_label: 'Overview'
+sidebar_position: 1
 ---
 
 # Media and Data Structure

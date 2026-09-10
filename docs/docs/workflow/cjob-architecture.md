@@ -1,6 +1,6 @@
 ---
-title: C-Job Architecture
-nav_order: 6
+title: 'C-Job architecture'
+sidebar_position: 2
 ---
 
 # C-Job Job Execution Architecture

@@ -1,6 +1,7 @@
 ---
-title: Setup
-nav_order: 3
+title: 'Setup'
+sidebar_label: 'Overview'
+sidebar_position: 1
 ---
 
 # Setup C-Stitch

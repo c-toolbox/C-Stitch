@@ -1,6 +1,7 @@
 ---
-title: Settings
-nav_order: 6
+title: 'Settings'
+sidebar_label: 'Overview'
+sidebar_position: 1
 ---
 
 # Settings

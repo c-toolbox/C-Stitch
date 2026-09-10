@@ -1,7 +1,8 @@
 ---
-title: Home
-layout: home
-nav_order: 1
+title: 'Start here'
+sidebar_label: 'Start here'
+sidebar_position: 1
+slug: /
 ---
 
 # C-Stitch : Cubemap Stitcher for Fisheye and Fulldome Output
@@ -10,17 +11,17 @@ C-Stitch is an open source Qt/Kirigami rewrite of the SGCT cubemap stitcher. It 
 
 C-Stitch follows the C-Slice application model: the UI is the master process, and pressing **Stitch** launches the same executable again in `--node` mode for high-performance rendering.
 
-![C-Stitch main window running a slice job](assets/C-Stitch_v1.0.0.png)
+![C-Stitch main window running a stitch job](/img/C-Stitch_v1.0.0.png)
 
 ## Guides
 
-1. [Install C-Stitch](install)
-1. [Setup C-Stitch](setup)
-1. [Media and data structure](media)
-1. [Stitch workflow](workflow)
-1. [Settings](settings)
-1. [Build from code](build)
-1. [Versions](versions)
+1. [Install C-Stitch](/install)
+2. [Setup C-Stitch](/setup/overview)
+3. [Media and data structure](/media/overview)
+4. [Stitch workflow](/workflow/overview)
+5. [Settings](/settings/overview)
+6. [Build from code](/build/overview)
+7. [Versions](/versions)
 
 ## Main features
 

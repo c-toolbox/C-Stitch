@@ -1,6 +1,6 @@
 ---
-title: Install
-nav_order: 2
+title: 'Install C-Stitch'
+sidebar_position: 2
 ---
 
 # Install C-Stitch

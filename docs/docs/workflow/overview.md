@@ -1,9 +1,14 @@
 ---
-title: Workflow
-nav_order: 5
+title: 'Stitch workflow'
+sidebar_label: 'Overview'
+sidebar_position: 1
 ---
 
 # Stitch Workflow
+
+Detailed workflow guides:
+
+- [C-Job architecture](/workflow/cjob-architecture)
 
 1. Choose the four cubemap faces for mono output, or the needed left-eye and/or right-eye face sets for stereo output.
 1. Select mono, both stereo eyes, left stereo eye only, or right stereo eye only.
